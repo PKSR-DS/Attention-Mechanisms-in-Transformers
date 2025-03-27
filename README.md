@@ -24,7 +24,9 @@ bash
 Copy
 Edit
 pip install numpy torch matplotlib
+
 How to Run the Code
+
 1. Clone the repository
 First, clone the repository to your local machine:
 
@@ -33,6 +35,7 @@ Copy
 Edit
 git clone https://github.com/PKSR-DS/Attention-Mechanisms-in-Transformers.git
 cd Attention-Mechanisms-in-Transformers
+
 2. Install dependencies
 Make sure you have the necessary dependencies installed:
 
@@ -40,6 +43,8 @@ bash
 Copy
 Edit
 pip install numpy torch matplotlib
+
+
 3. Run the script
 You can run the attention_mechanisms.py script that contains the implementation of self-attention and multi-head attention. To run the script, use the following command:
 
