@@ -48,6 +48,21 @@ Running the script will display the following outputs:
 
 Attention output and attention weights from the self-attention mechanism.
 
+Attention Output:
+ tensor([[0.8137, 0.4935, 0.5065, 0.1863],
+        [0.4935, 0.8137, 0.1863, 0.5065],
+        [0.7259, 0.7259, 0.2741, 0.2741]])
+Attention Weights:
+ tensor([[0.5065, 0.1863, 0.3072],
+        [0.1863, 0.5065, 0.3072],
+        [0.2741, 0.2741, 0.4519]])
+
 A heatmap visualization of the attention weights.
+![image](https://github.com/user-attachments/assets/48b2e59a-a930-4205-8f3d-4d42519059fd)
+
 
 The output from the multi-head attention mechanism.
+Output from Multi-Head Attention:
+ tensor([[[ 0.1367, -0.2819,  0.0927,  0.4478],
+         [-0.1354, -0.4186, -0.5878,  0.6200],
+         [-0.2719, -0.4759, -0.4203,  0.1670]]], grad_fn=<ViewBackward0>)
